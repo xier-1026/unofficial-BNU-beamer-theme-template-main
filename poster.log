@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.8.12)  21 SEP 2025 11:18
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.8.12)  21 SEP 2025 12:02
  restricted system commands enabled.
  file:line:error style messages enabled.
 **d:/学习记录/unofficial-BNU-beamer-theme-template-main/poster
@@ -1570,15 +1570,15 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 
 Here is how much of LuaTeX's memory you used:
  51941 strings out of 475506
- 596140,2373549 words of node,token memory allocated
- 287274 words of node memory still in use:
-   1070 hlist, 45 vlist, 75 rule, 225 disc, 59 local_par, 141 math, 2292 glue, 277 kern, 188 penalty, 2278 glyph, 101910 attribute, 83 glue_spec, 10099 attribute_list, 8 write, 1023 user_defined, 2992 pdf_literal, 2 pdf_start_link, 2 pdf_end_link, 3 pdf_dest, 2 pdf_action, 282 pdf_colorstack, 3 pdf_setmatrix, 3 pdf_save, 3 pdf_restore nodes
-   avail lists: 1:5,2:7821,3:9612,4:4181,5:921,6:184,7:14802,8:36,9:3722,10:12,11:735
+ 596118,2373549 words of node,token memory allocated
+ 286725 words of node memory still in use:
+   1068 hlist, 45 vlist, 75 rule, 225 disc, 59 local_par, 141 math, 2285 glue, 277 kern, 185 penalty, 2271 glyph, 101718 attribute, 83 glue_spec, 10081 attribute_list, 8 write, 1022 user_defined, 2992 pdf_literal, 2 pdf_start_link, 2 pdf_end_link, 3 pdf_dest, 2 pdf_action, 282 pdf_colorstack, 3 pdf_setmatrix, 3 pdf_save, 3 pdf_restore nodes
+   avail lists: 1:5,2:7821,3:9603,4:4178,5:921,6:184,7:14760,8:36,9:3716,10:12,11:735
  73513 multiletter control sequences out of 65536+600000
- 150 fonts using 151186467 bytes
+ 150 fonts using 151186747 bytes
  128i,20n,116p,755b,3066s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/simsun.ttc><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyretermes-math.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyretermes-math.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-bold.otf>
-Output written on poster.pdf (1 page, 469204 bytes).
+Output written on poster.pdf (1 page, 469144 bytes).
 
 PDF statistics: 85 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream

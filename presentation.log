@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.8.12)  21 SEP 2025 11:14
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.8.12)  21 SEP 2025 12:03
  restricted system commands enabled.
  file:line:error style messages enabled.
 **d:/学习记录/unofficial-BNU-beamer-theme-template-main/presentation
@@ -1577,9 +1577,9 @@ Here is how much of LuaTeX's memory you used:
  100000,1977958 words of node,token memory allocated
  17826 words of node memory still in use:
    65 hlist, 10 vlist, 8 rule, 32 disc, 10 local_par, 127 glue, 35 kern, 25 penalty, 252 glyph, 5792 attribute, 79 glue_spec, 584 attribute_list, 4 write, 67 user_defined, 3 pdf_literal, 1 pdf_start_link, 1 pdf_end_link, 3 pdf_dest, 1 pdf_action, 52 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:1,2:13990,3:660,4:724,5:196,6:43,7:2512,8:26,9:545,10:17,11:116
+   avail lists: 1:1,2:14002,3:660,4:724,5:196,6:43,7:2514,8:26,9:545,10:17,11:116
  72173 multiletter control sequences out of 65536+600000
- 146 fonts using 178854775 bytes
+ 146 fonts using 178855007 bytes
  128i,19n,116p,761b,1526s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name 'slide12'
@@ -1594,7 +1594,7 @@ warning  (pdf backend): unreferenced destination with name 'slide3'
 
 warning  (pdf backend): unreferenced destination with name 'slide1'
 <c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-italic.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyretermes-math.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/Windows/Fonts/simhei.ttf><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-bold.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyretermes-math.otf><c:/Windows/Fonts/simsun.ttc><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-regular.otf>
-Output written on presentation.pdf (13 pages, 484034 bytes).
+Output written on presentation.pdf (13 pages, 483250 bytes).
 
 PDF statistics: 352 PDF objects out of 1000 (max. 8388607)
  239 compressed objects within 3 object streams
