@@ -1,0 +1,71 @@
+\ProvidesPackage{beamercolorthemebnucolor}[2025/04/04 bnu Color Theme Unofficial] 
+\RequirePackage{kvoptions}
+\SetupKeyvalOptions{
+    family=bnucolortheme,
+    prefix=bnucolor@
+}
+\DeclareBoolOption[false]{presentation}
+\ProcessKeyvalOptions*
+
+% ========== Color Definitions ==========
+\definecolor{BNUBlue}{RGB}{0, 78, 161}
+\definecolor{BNURed}{RGB}{214, 11, 23}
+\definecolor{BNUWhite}{RGB}{255,255,255}
+\definecolor{BNUBlack}{RGB}{0,0,0}
+\definecolor{BNULightGray}{HTML}{f4f4f4}
+
+% ========== Background & Base Text ==========
+\setbeamercolor{background canvas}{bg=BNUWhite}
+\setbeamercolor{normal text}{fg=BNUBlack}
+\setbeamercolor{alerted text}{fg=BNUBlue}
+
+%====================Frames for presentation =================
+\setbeamercolor{frametitle}{fg=BNUWhite, bg=BNUBlue}
+
+% ========== Title & Header ==========
+\ifbnucolor@presentation
+\setbeamercolor{title box}{fg=BNUWhite, bg=BNURed}
+\setbeamercolor{headline left}{fg=BNUWhite, bg=BNUBlue!80}
+\setbeamercolor{headline right}{fg=BNUWhite, bg=BNUBlack!80}
+\else
+\setbeamercolor{headline}{bg=BNUBlue, fg=BNUWhite}
+\setbeamercolor{headline rule}{bg=BNUBlue}
+\setbeamercolor{title}{fg=BNUWhite, bg=BNUBlue}
+\setbeamercolor{headline title}{fg=BNUWhite}
+\setbeamercolor{headline author}{fg=BNUWhite}
+\setbeamercolor{headline institute}{fg=BNUWhite}
+\fi 
+% ========== Footer ==========
+\ifbnucolor@presentation
+\setbeamercolor{footline left}{fg=BNUWhite, bg=BNUBlue!80}
+\setbeamercolor{footline center}{fg=BNUBlue, bg=BNURed!70}
+\setbeamercolor{footline right}{fg=BNUWhite, bg=BNUBlack!80}
+\else 
+\setbeamercolor{footline}{fg=BNUWhite, bg=BNUBlue}
+\fi
+
+% ========== Blocks ==========
+\ifbnucolor@presentation
+\setbeamercolor{block title}{fg=BNUWhite, bg=BNURed}
+\setbeamercolor{block body}{fg=BNUBlack, bg=BNUBlue!20}
+\else 
+\setbeamercolor{block title}{fg=BNUBlue, bg=BNURed}
+\setbeamercolor{block body}{fg=BNUBlack, bg=BNULightGray}
+\setbeamercolor{block alerted title}{fg=BNUWhite, bg=BNUBlue}
+\setbeamercolor{block alerted body}{fg=BNUBlack, bg=BNULightGray}
+\setbeamercolor{block example title}{fg=BNUBlack, bg=BNUWhite}
+\setbeamercolor{block example body}{fg=BNUBlack, bg=BNUWhite}
+\fi 
+% ========== Lists ==========
+\setbeamercolor{item projected}{fg=BNUWhite, bg=BNUBlue}
+\setbeamercolor{itemize item}{fg=BNUBlue}
+\setbeamercolor{enumerate item}{fg=BNUBlue}
+
+% ========== Navigation (Hidden) ==========
+\setbeamercolor{navigation symbols}{fg=BNUBlue}
+\beamertemplatenavigationsymbolsempty
+
+% ========== Captions and Table of Contents ==========
+\setbeamercolor{caption name}{fg=BNUBlue}
+\setbeamercolor{section in toc}{fg=BNUBlue, bg=BNULightGray}
+\setbeamercolor{subsection in toc}{fg=BNUBlack, bg=BNULightGray}
