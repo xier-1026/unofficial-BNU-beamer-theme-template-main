@@ -2,7 +2,7 @@
 
 一个基于 [FSU Beamerposter & Presentation Theme (Unofficial)](https://github.com/rispace/unofficial-FSU-beamer-theme-template) 制作的，专为北京师范大学（BNU）定制的非官方 **Beamerposter** 和 **演示文稿** 主题。此主题遵循BNU的蓝色与红色配色方案，完美支持**海报**布局和标准的**幻灯片**演示。
 
-**重要提示：** 此主题基于原版的 `FSU` 主题适配修改而来，根据[北京师范大学视觉形象识别系统(2008年版) ](https://xcb.bnu.edu.cn/fwzn/xzzx/index.html)指定色彩提供部分色彩规范。有问题请邮件联系：email(liuziqi1026@outlook.com)
+**重要提示：** 此主题基于原版的 `FSU` 主题适配修改而来，根据[北京师范大学视觉形象识别系统(2008年版) ](https://xcb.bnu.edu.cn/fwzn/xzzx/index.html)指定色彩提供部分色彩规范。有问题请邮件联系：[email](liuziqi1026@outlook.com)
 
 ---
 
