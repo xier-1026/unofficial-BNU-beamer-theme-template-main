@@ -1,7 +1,34 @@
+# 创建 .gitignore 文件
+cat > .gitignore << EOF
+# 忽略所有文件
+*
+
+# 但保留以下文件和目录
+!README.md
+!presentation.tex
+!poster.tex
+!beamerthemebnu.sty
+!beamercolorthemebnucolor.sty
+!ref.bib
+!.gitignore
+
+# 保留 logo 和 images 目录及其内容
+!logo/
+!logo/**
+!images/
+!images/**
+
+# 忽略生成的文件
 *.aux
+*.log
+*.out
+*.toc
 *.bbl
+*.blg
 *.synctex.gz
-*.pdf
+*.fdb_latexmk
+*.fls
 *.nav
 *.snm
-*-blx.bib
+*.vrb
+EOF

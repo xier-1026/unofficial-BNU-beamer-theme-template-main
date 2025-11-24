@@ -102,7 +102,11 @@
 
 ## 作者
 
+<<<<<<< HEAD
 **xier-1026**
+=======
+**Liu Ziqi (刘子旗)**
+>>>>>>> cb06636b98c1f6e6332bcf5aa5be532c373768d1
 Beijing Normal University
 
 GitHub: [xier-1026](https://github.com/xier-1026)

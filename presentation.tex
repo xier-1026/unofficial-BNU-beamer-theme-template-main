@@ -13,8 +13,8 @@
 \usetheme[presentation]{bnu}
 \usecolortheme[presentation]{bnucolor}
 
-% 移除传统字体包
-% 使用fontspec和unicode-math替代
+\AtBeginSection{} % 禁用章节开始的自动目录
+\AtBeginSubsection{} % 禁用于章节开始的自动目录
 
 % Include the required packages here
 \usepackage{graphicx,booktabs,tikz,pgfplots,amsfonts,amsmath,amsthm,hyperref,caption,amssymb}
@@ -30,12 +30,12 @@
 \usefonttheme{serif} % 使用衬线字体（包括数学公式）
 
 % Logo in the first page, comment out if don't wanted
-\presentationlogo{\includegraphics[width=2cm]{logo/bnu.png}}
+\presentationlogo{\includegraphics[width=4cm]{logo/bnu.png}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title[BNU 模板]{BNU beamer 模板示例}
-\author[xier]{xier1026}
-\institute{Beijing Normal University}
-\date{\today}
+\title[在意识形态陷阱与科学哲学之间]{乌鸦悖论——系统科学哲学的审视与超越}
+\author[刘子旗]{刘子旗}
+\institute{物理与天文学院 光学}
+\date{2025年11月13日}
 
 \begin{document}
 
@@ -47,70 +47,303 @@
 \tableofcontents[subsectionstyle=hide, sectionstyle=show]
 \end{frame}
 % Intro section
-\section{介绍}
+\section{引言}
 % A subsection. May contain multiple subsections
-\subsection{Graph Theory}
-\begin{frame}{What is a graph?}
-    This is an unofficial template for Florida State Mathematics poster presentation prepared by Rafiq 
-    Islam\cite{bnumathposter25}. Here is how you use plain text. Here is how you can use a block to write some important information \cite{bnubeamerpresent25}
-    \begin{block}{Graph Theory}
-        Spectral graph theory studies properties of a graph in relationship to the eigenvalues and eigenvectors of matrices associated with the graph, such as the adjacency matrix $A$, degree matrix $D$, and Laplacian $L = D - A$.
-    \end{block}
-   \begin{itemize}
-    \item This is how you can start \texttt{itemize}
-    \item Instead of this right-pointed arrow, if you want bullets, then see the instruction in line 6
+\subsection{乌鸦悖论}
+\begin{frame}{一个令理性尴尬的难题}
+\begin{columns}
+\begin{column}{0.6\textwidth}
+\begin{itemize}
+    \item \textbf{逻辑铁律}："所有乌鸦都是黑的" $\Leftrightarrow$ "所有非黑的都不是乌鸦"
+    \item \textbf{悖论现场}：观察一支\textbf{白色粉笔}，在逻辑上确证了乌鸦的颜色
+    \item \textbf{核心冲突}：\textbf{无懈可击的逻辑} vs. \textbf{强烈排斥的直觉}
+\end{itemize}
+\end{column}
+\begin{column}{0.4\textwidth}
+\includegraphics[width=1.0\textwidth]{images/image-41.png}
+\end{column}
+\end{columns}
+\end{frame}
+
+\subsection{贝叶斯方法}
+\begin{frame}{贝叶斯的确证度：一次技术性修复}
+\begin{itemize}
+    \item \textbf{方案}：引入概率计算，白粉笔的"确证度"极低
+    \item \textbf{贡献}：在\textbf{数学上}巧妙地"解决"了问题
+    \item \textbf{局限}：它回答了 \textbf{"多少"}，但未回答 \textbf{"为何"}
+    \begin{itemize}
+        \item 为何我们的认知系统会天然地排斥这个逻辑？
+    \end{itemize}
 \end{itemize}
 \end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Why Graph Theory}
-\begin{frame}{Why do we need this?}
-This is an unofficial template for the Florida State Mathematics poster presentation prepared by Rafiq Islam\footnote{An example of footnote}. Here is how you use plain text. Spectral graph theory studies properties of a graph in relationship to the eigenvalues and eigenvectors of matrices associated with the graph, such as the adjacency matrix $A$, degree matrix $D$, and Laplacian $L = D - A$.
-\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Methodology}
-\begin{frame}{Mathematical Background}
-    This section has three slides. So in the top right, we see 3 dots. Highlighted one indicates the current slide.\\
-    Let $G = (V, E)$ be an undirected graph. The Laplacian matrix is given by
-        \[
-        L_{ij} =
-        \begin{cases}
-        \deg(v_i) & \text{if } i = j, \\
-        -1 & \text{if } i \neq j \text{ and } (i,j) \in E, \\
-        0 & \text{otherwise}.
-        \end{cases}
-        \]
-    \begin{enumerate}
-        \item The eigenvalues of $L$ reveal key structural properties such as connectivity.
-    \end{enumerate}
+\section{系统科学视角}
+% A subsection. May contain multiple subsections
+\subsection{系统论}
+\begin{frame}{范式的转换：从“孤立命题”到“知识系统”}
+\begin{columns}
+\begin{column}{0.6\textwidth}
+\begin{itemize}
+    \item \textbf{历史背景}：冷战工程催生"三论"
+    \begin{itemize}
+        \item 系统论、控制论、信息论
+    \end{itemize}
+    \item \textbf{核心思想}：世界是\textbf{整体的、层次的、动态的}\cite{BNUbeamerpresent00}
+    \item \textbf{我们的视角}："所有乌鸦都是黑的"是一个\textbf{活系统}中的命题
+\end{itemize}
+\end{column}
+\begin{column}{0.4\textwidth}
+\includegraphics[width=0.9\textwidth]{images/image-42.png}
+\end{column}
+\end{columns}
 \end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{A Tikz Picture Example}
-    \begin{figure}
-        \centering
-        \begin{tikzpicture}
-            \draw[thick] (0,0) ellipse (1.2 and 0.4);
-            \draw[thick] (0,-2) ellipse (1.2 and 0.4);
-            \draw[thick] (-1.2,0) -- (-1.2,-2);
-            \draw[thick] (1.2,0) -- (1.2,-2);
-            \node at (0, -2.5) {radius $r = 5$};
-            \node[right] at (1.3,-1) {height $h = 10$};
-        \end{tikzpicture}
-        \caption{ Spherical Cylinder with radius $r=5$m and height $h=10$ m}
-        \label{fig:fig1}
-    \end{figure}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Other Plots}
-    \begin{figure}
-    \centering
-    \includegraphics[width=0.5\linewidth]{images/seminole.png}
-    \caption{ Florida State Seminole (Photo credit: \href{https://en.wikipedia.org/wiki/Florida_State_Seminoles}{Wikipedia})}
-    \label{fig:enter-label}
-    \end{figure}
+
+\subsection{系统论基本内容}
+\begin{frame}{系统科学的理论基石}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{block}{是什么：八原理}
+主要描述系统的\textbf{静态存在方式与基本属性}
+\end{block}
+
+\vspace{0.5cm}
+
+\begin{block}{如何变：五规律}
+主要揭示系统的\textbf{动态演化过程与内在机制}
+\end{block}
+\end{column}
+\begin{column}{0.5\textwidth}
+\includegraphics[width=0.9\textwidth]{images/image-45.png}
+\end{column}
+\end{columns}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{悖论源于"层次混淆"}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{itemize}
+    \item \textbf{高层-命题层}：假说本身
+    \item \textbf{中层-关系层}：
+    \begin{itemize}
+        \item 直接关系 vs. 间接关系
+    \end{itemize}
+    \item \textbf{底层-实例层}：
+    \begin{itemize}
+        \item 高价值实例 vs. 低价值实例
+    \end{itemize}
+\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}
+\includegraphics[width=0.9\textwidth]{images/image-46.png}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{系统论如何支持这一诊断？}
+\begin{itemize}
+    \item \textbf{整体性原理}：命题的意义由整个知识系统赋予
+    \item \textbf{结构功能相关律}：证据在系统结构中的\textbf{位置}，决定了其确证\textbf{功能}
+    \item \textbf{竞争协同律}：逻辑与直觉的冲突，正是系统演化的内在动力
+\end{itemize}
+\end{frame}
+
+% 认知陷阱部分
+\subsection{认知陷阱分析}
+\begin{frame}{思维如何被俘获？三重认知陷阱}
+\begin{block}{A (有价值的核心命题)}
+建立可靠的科学确证理论
+\end{block}
+
+\begin{block}{B (有缺陷的实现方式)}
+对"逻辑等价原则"的僵化应用
+\end{block}
+
+\begin{itemize}
+    \item 关键在于区分A和B
+    \item 坚持A，批判B
+\end{itemize}
+\end{frame}
+
+\begin{frame}{认知陷阱：顺从 vs 反对}
+\begin{columns}[t] % [t] 参数确保两列顶部对齐
+\begin{column}{0.52\textwidth} % 稍微小于0.5以便留出间距
+\begin{block}{陷阱一：顺从陷阱}
+\begin{itemize}
+    \item \textbf{表现}：承认"白粉笔确证乌鸦颜色"，为逻辑牺牲直觉
+    \item \textbf{结果}：理性被异化，科学与常识脱节
+    \item \textbf{根源}：
+    \begin{itemize}
+        \item 过度依赖形式逻辑
+        \item 忽视认知系统的整体性
+    \end{itemize}
+\end{itemize}
+\end{block}
+\end{column}
+
+\begin{column}{0.52\textwidth}
+\begin{block}{陷阱二：反对陷阱}
+\begin{itemize}
+    \item \textbf{表现}：因结论荒谬，转而怀疑整个科学确证理论
+    \item \textbf{结果}：动摇科学根基，滑向虚无主义
+    \item \textbf{根源}：
+    \begin{itemize}
+        \item 全盘否定科学方法
+        \item 忽视逻辑的有效性
+    \end{itemize}
+\end{itemize}
+\begin{quote}
+\small 倒洗澡水时连孩子一起倒掉了
+\end{quote}
+\end{block}
+\end{column}
+\end{columns}
+\end{frame}
+
+% 解决方案部分
+\section{解决方案}
+\begin{frame}{出路：超越·系统思维的胜利}
+\begin{columns}
+\begin{column}{0.6\textwidth}
+\begin{block}{核心操作}
+\textbf{坚定A，批判B，重构系统}
+\end{block}
+
+\begin{itemize}
+    \item 悖论作为\textbf{"涨落"}，触发认知系统的\textbf{"自组织"}
+    \item 通过\textbf{"反馈"}走向更高级的有序
+    \item 如贝叶斯模型的引入
+\end{itemize}
+
+\begin{quote}
+真正的出路是'站着'的。我们忠于科学的目标，但敢于改造科学的工具。
+\end{quote}
+\end{column}
+\begin{column}{0.4\textwidth}
+\includegraphics[width=0.7\textwidth]{images/image-43.png}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{机制的普遍性}
+\begin{columns}[t] % [t] 参数确保两栏顶部对齐
+\begin{column}{0.48\textwidth}
+\begin{block}{A：正当的核心命题}
+\begin{itemize}
+    \item 平权
+    \item 知识  
+    \item 爱国
+    \item 科学精神
+\end{itemize}
+\end{block}
+\end{column}
+
+\begin{column}{0.48\textwidth}
+\begin{block}{B：有缺陷的实现方式}
+\begin{itemize}
+    \item 政治正确的
+    \item 应试教育
+    \item 狭隘民族主义
+    \item 教条主义科学观
+\end{itemize}
+\end{block}
+\end{column}
+\end{columns}
+
+\vspace{0.1cm}
+
+\begin{center}
+\begin{minipage}{0.9\textwidth}
+\begin{block}{核心启示}
+\textbf{关键在于区分A与B}：坚持崇高的核心价值（A），同时批判和改进有缺陷的实现方式（B）
+\end{block}
+\end{minipage}
+\end{center}
+\end{frame}
+
+% 结论部分
+\subsection{结论与启示}
+\begin{frame}{从乌鸦到世界：系统思维的普遍启示}
+
+\begin{itemize}
+    \item \textbf{世界观}：世界是相互关联的复杂系统
+    \item \textbf{认识论}：知识具有层级结构，警惕范畴错误
+    \item \textbf{方法论}：动态、反馈、自组织的分析框架
+\end{itemize}
+
+\vspace{0.3cm}
+
+\begin{block}{核心价值}
+系统思维提供理解复杂性的有效工具
+\end{block}
+\end{frame}
+
+\begin{frame}{讨论：悖论，是理性前进的路标}
+\begin{itemize}
+    \item 乌鸦悖论揭示了\textbf{静态逻辑}在处理\textbf{动态认知系统}时的固有局限
+    \item 系统科学哲学提供了一套\textbf{元语言}，让我们能描述并超越这种局限
+    \item 真正的智慧在于：
+    \begin{itemize}
+        \item 对终极价值（A）的坚守
+        \item 对实现路径（B）永不停息的革新
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{讨论：悖论解决了吗？}
+\begin{columns}[t]
+\begin{column}{0.48\textwidth}
+\begin{block}{A：没解决}
+\begin{itemize}
+    \item 解决的同时坐实了问题的复杂性
+    \item 表明需要\textbf{更丰富模型}才能理解
+    \item 从\textbf{逻辑谜题}升级为\textbf{系统性问题}
+\end{itemize}
+\end{block}
+\end{column}
+
+\begin{column}{0.48\textwidth}
+\begin{block}{B：解决了}
+\begin{itemize}
+    \item 复杂化是将问题\textbf{引回现实语境}
+    \item 提供\textbf{语法+语义+语用}的完整分析
+    \item 哲学服务于\textbf{认识现实、改造现实}的需求
+\end{itemize}
+\end{block}
+\end{column}
+\end{columns}
+
+\vspace{0.01cm}
+
+\begin{center}
+\begin{minipage}{1.0\textwidth}
+\begin{block}{警示牌}
+在一个复杂、分层、信息丰富的世界中，理性地建立信念
+\end{block}
+\end{minipage}
+\end{center}
+\end{frame}
+
 \section{Reference}
 \begin{frame}{Bibliography}
 \bibliographystyle{plainnat}\bibliography{ref}
 \end{frame}
+
+\begin{frame}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\centering
+\vspace{1.5cm}
+{\Huge 谢谢聆听}\\
+\vspace{1cm}
+{\large 刘子旗}\\
+{\small 北京师范大学物理与天文学院}\\
+{\small 2025年11月13日}
+\end{column}
+\begin{column}{0.5\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{images/seminole.png}
+\end{column}
+\end{columns}
+\end{frame}
+
 \end{document}

@@ -1,5 +1,10 @@
-\beamer@sectionintoc {1}{介绍}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Graph Theory}{4}{0}{1}
-\beamer@subsectionintoc {1}{2}{Why Graph Theory}{6}{0}{1}
-\beamer@sectionintoc {2}{Methodology}{8}{0}{2}
-\beamer@sectionintoc {3}{Reference}{12}{0}{3}
+\beamer@sectionintoc {1}{引言}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{乌鸦悖论}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{贝叶斯方法}{4}{0}{1}
+\beamer@sectionintoc {2}{系统科学视角}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{系统论}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{系统论基本内容}{6}{0}{2}
+\beamer@subsectionintoc {2}{3}{认知陷阱分析}{9}{0}{2}
+\beamer@sectionintoc {3}{解决方案}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{结论与启示}{13}{0}{3}
+\beamer@sectionintoc {4}{Reference}{16}{0}{4}

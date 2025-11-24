@@ -1,19 +1,300 @@
 \documentclass{beamer}
-% 使用LuaLaTeX编译时不需要fontenc
-\usepackage{fontspec} % 用于OpenType字体管理
-\setsansfont{TeX Gyre Heros} % 类似Helvetica的无衬线字体
-\setmainfont{TeX Gyre Termes} % 类似Times的衬线字体
+\usepackage{fontspec}
+\setsansfont{TeX Gyre Heros}
+\setmainfont{TeX Gyre Termes}
 
-% 保持其他包不变，但移除fontenc和传统字体包
 \usepackage[size=custom, width=91.44, height=60.94, scale=1.0]{beamerposter}
 \usepackage[UTF8]{ctex}
 
-% 使用unicode-math设置数学字体
 \usepackage{unicode-math}
-\setmathfont{TeX Gyre Termes Math} % 与主文字体匹配的数学字体
+\setmathfont{TeX Gyre Termes Math}
 
-% Theme and color theme
 \usetheme{bnu}
+\usepackage{fontspec}
+\setsansfont{TeX Gyre Heros}
+\setmainfont{TeX Gyre Termes}
+
+\usepackage[size=custom, width=91.44, height=60.94, scale=1.0]{beamerposter}
+\usepackage[UTF8]{ctex}
+
+\usepackage{unicode-math}
+\setmathfont{TeX Gyre Termes Math}
+
+\usetheme{bnu}
+\usecolortheme{bnucolor}
+
+\usepackage{graphicx,booktabs,tikz,pgfplots,amsfonts,amsmath,amssymb,amsthm,hyperref,caption}
+
+\usetikzlibrary{intersections}
+\usepgfplotslibrary{fillbetween}
+
+\pgfplotsset{compat=1.18}
+
+\newlength{\sepwidth}
+\newlength{\colwidth}
+\setlength{\sepwidth}{0.009\paperwidth}
+\setlength{\colwidth}{0.3\paperwidth}
+
+\newcommand{\separatorcolumn}{\begin{column}{\sepwidth}\end{column}}
+
+% Title and authors
+\title{乌鸦悖论——系统科学哲学的审视与超越}
+\author{刘子旗}
+\institute[shortinst]{北京师范大学物理与天文学院 光学}
+
+% Footer content
+\footercontent{
+\href{https://github.com/xier-1026/unofficial-BNU-beamer-theme-template-main} \hfill 学术海报设计\hfill 北京师范大学
+}
+
+\logoleft{\includegraphics[height=6.5cm]{logo/bnu-logo-white.png}}
+\logoright{\includegraphics[height=7cm]{logo/bnuphys.png}}
+
+\begin{document}
+
+\begin{frame}[t]
+\begin{columns}[t]
+
+% COLUMN 1
+\begin{column}{\colwidth}
+\begin{block}{引言：一个令理性尴尬的难题}
+\begin{columns}
+\begin{column}{0.6\textwidth}
+\begin{itemize}
+    \item \textbf{逻辑铁律}："所有乌鸦都是黑的" $\Leftrightarrow$ "所有非黑的都不是乌鸦"
+    \item \textbf{悖论现场}：观察一支\textbf{白色粉笔}，在逻辑上确证了乌鸦的颜色
+    \item \textbf{核心冲突}：\textbf{无懈可击的逻辑} vs. \textbf{强烈排斥的直觉}
+\end{itemize}
+\end{column}
+\begin{column}{0.4\textwidth}
+\includegraphics[width=0.6\textwidth]{images/image-41.png}
+\end{column}
+\end{columns}
+\end{block}
+
+\begin{block}{贝叶斯方法：技术性修复}
+\begin{itemize}
+    \item \textbf{方案}：引入概率计算，白粉笔的"确证度"极低
+    \item \textbf{贡献}：在\textbf{数学上}巧妙地"解决"了问题
+    \item \textbf{局限}：它回答了 \textbf{"多少"}，但未回答 \textbf{"为何"}
+    \begin{itemize}
+        \item 为何我们的认知系统会天然地排斥这个逻辑？
+    \end{itemize}
+\end{itemize}
+\end{block}
+
+\begin{block}{系统科学视角：范式的转换}
+\begin{columns}
+\begin{column}{0.6\textwidth}
+\begin{itemize}
+    \item \textbf{历史背景}：冷战工程催生"三论"
+    \begin{itemize}
+        \item 系统论、控制论、信息论
+    \end{itemize}
+    \item \textbf{核心思想}：世界是\textbf{整体的、层次的、动态的}\cite{BNUbeamerpresent00}
+    \item \textbf{我们的视角}："所有乌鸦都是黑的"是一个\textbf{活系统}中的命题
+\end{itemize}
+\end{column}
+\begin{column}{0.4\textwidth}
+\includegraphics[width=0.9\textwidth]{images/image-42.png}
+\end{column}
+\end{columns}
+\end{block}
+
+\begin{block}{系统科学理论基础}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{itemize}
+    \item \textbf{八原理}：描述系统的\textbf{静态存在方式与基本属性}
+    \item \textbf{五规律}：揭示系统的\textbf{动态演化过程与内在机制}
+\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}
+\includegraphics[width=0.9\textwidth]{images/image-45.png}
+\end{column}
+\end{columns}
+\end{block}
+\end{column}
+
+\separatorcolumn
+
+% COLUMN 2
+\begin{column}{\colwidth}
+\begin{block}{悖论源于"层次混淆"}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{itemize}
+    \item \textbf{高层-命题层}：假说本身
+    \item \textbf{中层-关系层}：
+    \begin{itemize}
+        \item 直接关系 vs. 间接关系
+    \end{itemize}
+    \item \textbf{底层-实例层}：
+    \begin{itemize}
+        \item 高价值实例 vs. 低价值实例
+    \end{itemize}
+\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}
+\includegraphics[width=0.9\textwidth]{images/image-46.png}
+\end{column}
+\end{columns}
+\end{block}
+
+\begin{block}{系统论诊断支持}
+\begin{itemize}
+    \item \textbf{整体性原理}：命题的意义由整个知识系统赋予
+    \item \textbf{结构功能相关律}：证据在系统结构中的\textbf{位置}，决定了其确证\textbf{功能}
+    \item \textbf{竞争协同律}：逻辑与直觉的冲突，正是系统演化的内在动力
+\end{itemize}
+\end{block}
+
+\begin{alertblock}{三重认知陷阱}
+\begin{block}{A (有价值的核心命题)}
+建立可靠的科学确证理论
+\end{block}
+
+\begin{block}{B (有缺陷的实现方式)}
+对"逻辑等价原则"的僵化应用
+\end{block}
+
+\begin{itemize}
+    \item 关键在于区分A和B
+    \item 坚持A，批判B
+\end{itemize}
+\end{alertblock}
+
+\begin{block}{认知陷阱分析}
+\begin{columns}[t]
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+    \item \textbf{陷阱一：顺从陷阱}
+    \begin{itemize}
+        \item 承认"白粉笔确证乌鸦颜色"
+        \item 为逻辑牺牲直觉
+        \item 理性被异化
+    \end{itemize}
+\end{itemize}
+\end{column}
+
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+    \item \textbf{陷阱二：反对陷阱}
+    \begin{itemize}
+        \item 因结论荒谬怀疑科学确证理论
+        \item 动摇科学根基
+        \item 滑向虚无主义
+    \end{itemize}
+\end{itemize}
+\end{column}
+\end{columns}
+\end{block}
+\end{column}
+
+\separatorcolumn
+
+% COLUMN 3
+\begin{column}{\colwidth}
+\begin{block}{解决方案：系统思维的胜利}
+\begin{columns}
+\begin{column}{0.6\textwidth}
+\begin{itemize}
+    \item \textbf{核心操作}：坚定A，批判B，重构系统
+    \item 悖论作为\textbf{"涨落"}，触发认知系统的\textbf{"自组织"}
+    \item 通过\textbf{"反馈"}走向更高级的有序
+    \item 如贝叶斯模型的引入
+\end{itemize}
+
+\begin{quote}
+真正的出路是'站着'的。我们忠于科学的目标，但敢于改造科学的工具。
+\end{quote}
+\end{column}
+\begin{column}{0.4\textwidth}
+\includegraphics[width=0.4\textwidth]{images/image-43.png}
+\end{column}
+\end{columns}
+\end{block}
+
+\begin{block}{机制的普遍性}
+\begin{columns}[t]
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+    \item \textbf{A：正当的核心命题}
+    \begin{itemize}
+        \item 平权
+        \item 知识  
+        \item 爱国
+        \item 科学精神
+    \end{itemize}
+\end{itemize}
+\end{column}
+
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+    \item \textbf{B：有缺陷的实现方式}
+    \begin{itemize}
+        \item 政治正确
+        \item 应试教育
+        \item 狭隘民族主义
+        \item 教条主义科学观
+    \end{itemize}
+\end{itemize}
+\end{column}
+\end{columns}
+
+\begin{center}
+\begin{minipage}{0.9\textwidth}
+\begin{itemize}
+    \item \textbf{核心启示}：坚持崇高的核心价值（A），同时批判和改进有缺陷的实现方式（B）
+\end{itemize}
+\end{minipage}
+\end{center}
+\end{block}
+
+\begin{exampleblock}{结论与启示}
+\begin{itemize}
+    \item \textbf{世界观}：世界是相互关联的复杂系统
+    \item \textbf{认识论}：知识具有层级结构，警惕范畴错误
+    \item \textbf{方法论}：动态、反馈、自组织的分析框架
+    \item \textbf{核心价值}：系统思维提供理解复杂性的有效工具
+\end{itemize}
+\end{exampleblock}
+
+\begin{block}{讨论：悖论解决了吗？}
+\begin{columns}[t]
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+    \item \textbf{A：没解决}
+    \begin{itemize}
+        \item 解决的同时坐实了问题的复杂性
+        \item 表明需要\textbf{更丰富模型}才能理解
+        \item 从\textbf{逻辑谜题}升级为\textbf{系统性问题}
+    \end{itemize}
+\end{itemize}
+\end{column}
+
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+    \item \textbf{B：解决了}
+    \begin{itemize}
+        \item 复杂化是将问题\textbf{引回现实语境}
+        \item 提供\textbf{语法+语义+语用}的完整分析
+        \item 哲学服务于\textbf{认识现实、改造现实}的需求
+    \end{itemize}
+\end{itemize}
+\end{column}
+\end{columns}
+\end{block}
+
+\begin{block}{参考文献}
+\small
+\footnotesize{\bibliographystyle{plain}\bibliography{ref}}
+\end{block}
+\end{column}
+
+\end{columns}
+\end{frame}
+\end{document}
 \usecolortheme{bnucolor}
 
 % 其他包保持不变
@@ -45,7 +326,7 @@
 }
 
 % Logos (replace with your real paths)
-\logoleft{\includegraphics[height=6.5cm]{logo/bnu-logo.png}}
+\logoleft{\includegraphics[height=6.5cm]{logo/bnu-logo-white.png}}
 \logoright{\includegraphics[height=7cm]{logo/bnuphys.png}}
 
 \begin{document}
