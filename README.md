@@ -104,8 +104,6 @@
 
 xier-1026
 
-Liu Ziqi
-
 School of Physics and Astronomy,Beijing Normal University
 
 GitHub: [xier-1026](https://github.com/xier-1026)
