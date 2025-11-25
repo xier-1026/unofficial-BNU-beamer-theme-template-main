@@ -239,6 +239,7 @@
   \fi
 }
 \fi
+
 % ================= Box Settings ==============
 \RequirePackage{tcolorbox}
 \tcbuselibrary{skins, breakable, theorems}
@@ -248,9 +249,38 @@
   fancyblockstyle/.style={
     enhanced,
     rounded corners,
-    colframe=BNUBlue,
-    coltitle=BNURed,
-    colbacktitle=BNUBlue,
+    colframe=BNUBlue,        % 蓝色边框
+    coltitle=BNURed,         % 红色标题文字
+    colbacktitle=BNUBlue,    % 蓝色标题背景
+    colback=BNULightGray,    % 灰色内容背景
+    title filled=true,
+    boxrule=1.5pt,
+    fonttitle=\bfseries,
+    breakable,
+    attach boxed title to top left={xshift=5mm, yshift=-2mm},
+    boxed title style={rounded corners, size=small}
+  },
+  fancyalertblockstyle/.style={
+    enhanced,
+    rounded corners,
+    colframe=BNURed,         % 红色边框
+    coltitle=BNUBlue,        % 蓝色标题文字
+    colbacktitle=BNURed,     % 红色标题背景
+    colback=BNULightGray,    % 灰色内容背景
+    title filled=true,
+    boxrule=1.5pt,
+    fonttitle=\bfseries,
+    breakable,
+    attach boxed title to top left={xshift=5mm, yshift=-2mm},
+    boxed title style={rounded corners, size=small}
+  },
+  fancyexampleblockstyle/.style={
+    enhanced,
+    rounded corners,
+    colframe=BNULightGray,   % 灰色边框
+    coltitle=BNURed,         % 红色标题文字
+    colbacktitle=BNULightGray, % 灰色标题背景
+    colback=BNULightGray,    % 灰色内容背景
     title filled=true,
     boxrule=1.5pt,
     fonttitle=\bfseries,
@@ -285,11 +315,7 @@
 
 % Alert block
 \setbeamertemplate{block alerted begin}{
-  \begin{tcolorbox}[fancyblockstyle, 
-    colframe=red!75!black,
-    colbacktitle=red!75!black,
-    title=\insertblocktitle
-  ]
+  \begin{tcolorbox}[fancyalertblockstyle, title=\insertblocktitle]
   \justifying
 }
 \setbeamertemplate{block alerted end}{
@@ -299,17 +325,14 @@
 
 % Example block
 \setbeamertemplate{block example begin}{
-  \begin{tcolorbox}[fancyblockstyle,
-    colframe=green!50!black,
-    colbacktitle=green!50!black,
-    title=\insertblocktitle
-  ]
+  \begin{tcolorbox}[fancyexampleblockstyle, title=\insertblocktitle]
   \justifying
 }
 \setbeamertemplate{block example end}{
   \end{tcolorbox}
   \vspace*{1ex}
 }
+
 %===================== Table and Images===============
 \setbeamertemplate{caption}[numbered]
 \setbeamertemplate{caption label separator}{:\hspace{0.3em}}
