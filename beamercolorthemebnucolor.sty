@@ -12,7 +12,7 @@
 \definecolor{BNURed}{RGB}{214, 11, 23}
 \definecolor{BNUWhite}{RGB}{255,255,255}
 \definecolor{BNUBlack}{RGB}{0,0,0}
-\definecolor{BNULightGray}{HTML}{f4f4f4}
+\definecolor{BNULightGray}{RGB}{244,244,244}
 
 % ========== Background & Base Text ==========
 \setbeamercolor{background canvas}{bg=BNUWhite}
@@ -45,16 +45,17 @@
 \fi
 
 % ========== Blocks ==========
+% ========== Blocks ==========
 \ifbnucolor@presentation
 \setbeamercolor{block title}{fg=BNUWhite, bg=BNURed}
 \setbeamercolor{block body}{fg=BNUBlack, bg=BNUBlue!20}
 \else 
-\setbeamercolor{block title}{fg=BNUBlue, bg=BNURed}
+\setbeamercolor{block title}{fg=BNURed, bg=BNUBlue}
 \setbeamercolor{block body}{fg=BNUBlack, bg=BNULightGray}
-\setbeamercolor{block alerted title}{fg=BNUWhite, bg=BNUBlue}
+\setbeamercolor{block alerted title}{fg=BNUBlue, bg=BNURed}
 \setbeamercolor{block alerted body}{fg=BNUBlack, bg=BNULightGray}
-\setbeamercolor{block example title}{fg=BNUBlack, bg=BNUWhite}
-\setbeamercolor{block example body}{fg=BNUBlack, bg=BNUWhite}
+\setbeamercolor{block example title}{fg=BNURed, bg=BNULightGray}
+\setbeamercolor{block example body}{fg=BNUBlack, bg=BNULightGray}
 \fi 
 % ========== Lists ==========
 \setbeamercolor{item projected}{fg=BNUWhite, bg=BNUBlue}
