@@ -1,8 +1,8 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.8.12)  24 NOV 2025 11:37
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.8.12)  25 NOV 2025 16:41
  restricted system commands enabled.
  file:line:error style messages enabled.
-**d:/待办/乌鸦悖论/poster
-(d:/待办/乌鸦悖论/poster.tex
+**d:/学习记录/unofficial-BNU-beamer-theme-template-main/poster
+(d:/学习记录/unofficial-BNU-beamer-theme-template-main/poster.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
@@ -1569,11 +1569,11 @@ File: logo/bnu-logo-white.png Graphic file (type png)
 <use logo/bnu-logo-white.png>
 Package luatex.def Info: logo/bnu-logo-white.png  used on input line 53.
 (luatex.def)             Requested size: 185.46875pt x 184.9429pt.
-<logo/bnuphys.png, id=15, 277.035pt x 276.03125pt>
+<logo/bnuphys.png, id=15, 304.4976pt x 304.9794pt>
 File: logo/bnuphys.png Graphic file (type png)
 <use logo/bnuphys.png>
 Package luatex.def Info: logo/bnuphys.png  used on input line 53.
-(luatex.def)             Requested size: 199.90044pt x 199.16928pt.
+(luatex.def)             Requested size: 198.85963pt x 199.16928pt.
 File: logo/bnu-logo-white.png Graphic file (type png)
 <use logo/bnu-logo-white.png>
 Package luatex.def Info: logo/bnu-logo-white.png  used on input line 296.
@@ -1581,7 +1581,7 @@ Package luatex.def Info: logo/bnu-logo-white.png  used on input line 296.
 File: logo/bnuphys.png Graphic file (type png)
 <use logo/bnuphys.png>
 Package luatex.def Info: logo/bnuphys.png  used on input line 296.
-(luatex.def)             Requested size: 199.90044pt x 199.16928pt.
+(luatex.def)             Requested size: 198.85963pt x 199.16928pt.
 <images/image-41.png, id=17, 839.135pt x 1260.71pt>
 File: images/image-41.png Graphic file (type png)
 <use images/image-41.png>
@@ -1616,7 +1616,7 @@ Package luatex.def Info: logo/bnu-logo-white.png  used on input line 296.
 File: logo/bnuphys.png Graphic file (type png)
 <use logo/bnuphys.png>
 Package luatex.def Info: logo/bnuphys.png  used on input line 296.
-(luatex.def)             Requested size: 199.90044pt x 199.16928pt.
+(luatex.def)             Requested size: 198.85963pt x 199.16928pt.
 [1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 <./logo/bnu-logo-white.png><./logo/bnuphys.png><./images/image-41.png><./images/image-42.png><./images/image-45.png><./images/image-46.png><./images/image-43.png><c:/texlive/2025/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
@@ -1639,16 +1639,16 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 51512 strings out of 475506
- 596112,2373549 words of node,token memory allocated
- 307116 words of node memory still in use:
-   1399 hlist, 63 vlist, 65 rule, 109 local_par, 146 math, 3206 glue, 143 kern, 502 penalty, 1103 glyph, 110093 attribute, 83 glue_spec, 11101 attribute_list, 4 write, 1368 user_defined, 2922 pdf_literal, 1 pdf_start_link, 1 pdf_end_link, 1 pdf_dest, 1 pdf_action, 526 pdf_colorstack, 7 pdf_setmatrix, 7 pdf_save, 7 pdf_restore nodes
-   avail lists: 1:3,2:6252,3:10368,4:5948,5:465,6:334,7:13606,8:1,9:4771,10:26
- 73074 multiletter control sequences out of 65536+600000
- 136 fonts using 125051271 bytes
- 128i,20n,116p,720b,2627s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-italic.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-bold.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyretermes-math.otf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf>
-Output written on poster.pdf (1 page, 3796852 bytes).
+ 51517 strings out of 475506
+ 596129,2373549 words of node,token memory allocated
+ 307808 words of node memory still in use:
+   1399 hlist, 63 vlist, 47 rule, 6 disc, 109 local_par, 146 math, 3196 glue, 156 kern, 500 penalty, 1152 glyph, 110302 attribute, 83 glue_spec, 11120 attribute_list, 4 write, 1368 user_defined, 2922 pdf_literal, 1 pdf_start_link, 1 pdf_end_link, 1 pdf_dest, 1 pdf_action, 526 pdf_colorstack, 7 pdf_setmatrix, 7 pdf_save, 7 pdf_restore nodes
+   avail lists: 1:1,2:6480,3:10362,4:5948,5:504,6:334,7:13723,8:2,9:4717,10:26,11:18
+ 73079 multiletter control sequences out of 65536+600000
+ 136 fonts using 125051431 bytes
+ 128i,20n,116p,755b,2627s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/simsun.ttc><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-italic.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-bold.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyretermes-math.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-regular.otf><c:/Windows/Fonts/simhei.ttf>
+Output written on poster.pdf (1 page, 4092962 bytes).
 
 PDF statistics: 94 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream

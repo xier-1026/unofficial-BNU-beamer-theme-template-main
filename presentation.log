@@ -1,8 +1,8 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.8.12)  13 NOV 2025 12:54
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.8.12)  25 NOV 2025 16:42
  restricted system commands enabled.
  file:line:error style messages enabled.
-**d:/待办/unofficial-BNU-beamer-theme-template-main/presentation
-(d:/待办/unofficial-BNU-beamer-theme-template-main/presentation.tex
+**d:/学习记录/unofficial-BNU-beamer-theme-template-main/presentation
+(d:/学习记录/unofficial-BNU-beamer-theme-template-main/presentation.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
@@ -1631,20 +1631,20 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 50614 strings out of 475506
- 125007,1977958 words of node,token memory allocated
- 10675 words of node memory still in use:
-   50 hlist, 12 vlist, 28 rule, 2 disc, 8 local_par, 8 math, 107 glue, 12 kern, 21 penalty, 45 glyph, 3459 attribute, 79 glue_spec, 358 attribute_list, 4 write, 54 user_defined, 26 pdf_literal, 3 pdf_start_link, 3 pdf_end_link, 3 pdf_action, 22 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:1,2:30455,3:1889,4:1400,5:118,6:71,7:2453,8:1,9:1416,10:26,11:18
- 72154 multiletter control sequences out of 65536+600000
- 121 fonts using 145748671 bytes
- 128i,19n,116p,755b,1918s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 50631 strings out of 475506
+ 125002,1977958 words of node,token memory allocated
+ 11486 words of node memory still in use:
+   51 hlist, 12 vlist, 12 rule, 8 disc, 8 local_par, 8 math, 101 glue, 25 kern, 20 penalty, 91 glyph, 3703 attribute, 79 glue_spec, 381 attribute_list, 4 write, 55 user_defined, 26 pdf_literal, 3 pdf_start_link, 3 pdf_end_link, 3 pdf_action, 22 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
+   avail lists: 1:1,2:30188,3:1890,4:1399,5:148,6:71,7:2413,8:1,9:1425,10:26,11:20
+ 72171 multiletter control sequences out of 65536+600000
+ 121 fonts using 145748487 bytes
+ 128i,19n,116p,761b,1920s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name 'slide17'
 
 warning  (pdf backend): unreferenced destination with name 'slide1'
 <c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-italic.otf><c:/Windows/Fonts/simkai.ttf><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-bold.otf><c:/Windows/Fonts/simhei.ttf><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyretermes-math.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-regular.otf><c:/Windows/Fonts/simsun.ttc>
-Output written on presentation.pdf (17 pages, 4942885 bytes).
+Output written on presentation.pdf (17 pages, 4942632 bytes).
 
 PDF statistics: 474 PDF objects out of 1000 (max. 8388607)
  300 compressed objects within 3 object streams
